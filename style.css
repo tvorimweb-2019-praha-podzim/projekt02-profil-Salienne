@@ -16,4 +16,83 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    color: lightgrey;
+}
+
+.profil {
+    background-color: #31363b;
+    width: 250px;
+    box-shadow: 1px 3px 3px #131517;
+}
+
+.hlavicka {
+    /* background-color: red; */
+    position: relative;
+}
+
+.foto {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 135px;
+    right: 30px;
+    background-color: #b92e81;
+    border-radius: 50%;
+    box-shadow: 1px 3px 3px black;
+}
+
+.obsah {
+    background-color: #31363b;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jmeno {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+}
+
+.odkazy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.odkazy li:hover {
+    background-color: #1da1f2;
+}
+
+.odkazy li {
+    line-height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3f464d;
+}
+
+.odkazy a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio {
+    width: 100%;
+}
+
+.facebook {
+    width: 50%;
+}
+
+.twitter {
+    width: 50%;
 }
